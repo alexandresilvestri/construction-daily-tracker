@@ -131,7 +131,3 @@ construction-daily-tracker/
 **Compartilhado:**
 - **Kotlin Serialization** - Serialização de dados
 - **Kotlin Multiplatform** - Compartilhamento de código
-
-Se este projeto te ajudou, dê uma ⭐!
-
-</div>
