@@ -1,4 +1,4 @@
-# 🏗️ Construction Daily Tracker
+# Construction Daily Tracker
 
 > Uma solução moderna e completa para gestão de folha de pagamento na construção civil, desenvolvida com Kotlin Multiplatform e funcionando 100% offline
 
@@ -10,24 +10,24 @@
 
 ## APK para download: [Link](https://drive.google.com/drive/folders/1PtZLVo6KCa1w9JP4mgLfaEJYqMlMlMFC?usp=sharing)
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Gerenciar a folha de pagamento na construção civil é complicado, especialmente quando você precisa cuidar de diversas obras e calcular dias trabalhados com precisão. O **Construction Daily Tracker** resolve esses desafios com uma solução local e offline.
 
 Seja gerenciando uma pequena equipe ou supervisionando múltiplas obras, este app ajuda você a:
 
-✅ Rastrear funcionários em diferentes obras e funções
-✅ Registrar ajustes diários (horas extras, faltas, bonificações)
-✅ Calcular automaticamente a folha de pagamento com precisão
-✅ Gerar relatórios mensais do dia 6 ao dia 5
-✅ Manter um histórico completo de todas as alterações
-✅ **Funcionar 100% offline - todos os dados ficam no seu celular**
+Rastrear funcionários em diferentes obras e funções
+Registrar ajustes diários (horas extras, faltas, bonificações)
+Calcular automaticamente a folha de pagamento com precisão
+Gerar relatórios mensais do dia 6 ao dia 5
+Manter um histórico completo de todas as alterações
+**Funcionar 100% offline - todos os dados ficam no seu celular**
 
 ---
 
-## 🌟 Funcionalidades Principais
+## Funcionalidades Principais
 
-### 🎯 Cálculo Inteligente de Folha
+### Cálculo Inteligente de Folha
 - **Cálculo automático de dias úteis** excluindo finais de semana
 - **Ajustes dinâmicos** para horas extras, faltas e bonificações
 - **Atualizações em tempo real** quando ajustes são adicionados ou removidos
@@ -40,13 +40,13 @@ Seja gerenciando uma pequena equipe ou supervisionando múltiplas obras, este ap
 - **Interface moderna** construída com Compose Multiplatform
 - **Lógica de negócio compartilhada** entre plataformas
 
-### 🔐 Seguro & Privado
+### Seguro & Privado
 - **Dados locais** - tudo fica no seu dispositivo
 - **Armazenamento criptografado** para preferências sensíveis
 - **Sem envio de dados** para servidores externos
 - **Cobertura de testes** seguindo princípios TDD
 
-### 🏗️ Gestão Multi-Obras
+### Gestão Multi-Obras
 - Rastreie múltiplas obras simultaneamente
 - Atribua funcionários a diferentes funções
 - Monitore trabalho em vários projetos
@@ -54,7 +54,7 @@ Seja gerenciando uma pequena equipe ou supervisionando múltiplas obras, este ap
 
 ---
 
-## 🚀 Início Rápido
+## Início Rápido
 
 ### Pré-requisitos
 
@@ -62,7 +62,7 @@ Seja gerenciando uma pequena equipe ou supervisionando múltiplas obras, este ap
 - **JDK 11** ou superior
 - **Dispositivo Android** ou emulador (API 24+)
 
-### 📱 Instalar o App
+### Instalar o App
 
 #### Opção 1: Baixar APK Pré-compilado
 1. Navegue até `composeApp/build/outputs/apk/debug/`
@@ -86,7 +86,7 @@ cd construction-daily-tracker
 adb install composeApp/build/outputs/apk/debug/composeApp-debug.apk
 ```
 
-### 🧪 Executar Testes
+### Executar Testes
 
 ```bash
 # Executar todos os testes
@@ -101,7 +101,7 @@ adb install composeApp/build/outputs/apk/debug/composeApp-debug.apk
 
 ---
 
-## 🏛️ Arquitetura
+## Arquitetura
 
 Este projeto segue uma **arquitetura limpa e modular** com armazenamento local:
 
