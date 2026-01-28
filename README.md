@@ -27,7 +27,7 @@ Manter um histórico completo de todas as alterações
 
 ## Funcionalidades Principais
 
-### Cálculo Inteligente de Folha
+### Cálculo de Folha
 - **Cálculo automático de dias úteis** excluindo finais de semana
 - **Ajustes dinâmicos** para horas extras, faltas e bonificações
 - **Atualizações em tempo real** quando ajustes são adicionados ou removidos
@@ -95,10 +95,6 @@ adb install composeApp/build/outputs/apk/debug/composeApp-debug.apk
 # Executar apenas testes do shared
 ./gradlew :shared:test
 
-# Executar com saída detalhada
-./gradlew test --info
-```
-
 ---
 
 ## Arquitetura
@@ -121,13 +117,11 @@ construction-daily-tracker/
 ### Stack Tecnológica
 
 **Android:**
-- **Compose Multiplatform** - UI declarativa moderna
-- **Room Database** - Persistência local type-safe
-- **SQLite** - Banco de dados embarcado
-- **Kotlin Coroutines** - Operações assíncronas
+- **Compose Multiplatform** - UI
+- **Room Database** - Persistência local
+- **SQLite** - Banco de dados
 - **ViewModel** - Gerenciamento de estado
-- **EncryptedSharedPreferences** - Armazenamento seguro de preferências
 
 **Compartilhado:**
-- **Kotlin Serialization** - Serialização de dados
-- **Kotlin Multiplatform** - Compartilhamento de código
+- **Kotlin Serialization**
+- **Kotlin Multiplatform**
