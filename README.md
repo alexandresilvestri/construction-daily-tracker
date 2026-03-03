@@ -94,6 +94,7 @@ adb install composeApp/build/outputs/apk/debug/composeApp-debug.apk
 
 # Run shared module tests only
 ./gradlew :shared:test
+```
 
 ---
 
